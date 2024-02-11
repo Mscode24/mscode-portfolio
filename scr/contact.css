@@ -1,0 +1,62 @@
+
+/*---------------------------Contact Me---------------------------*/
+.contact-content{
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+  }
+  .contact-content .contact-title h4{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #15F5BA;
+    padding-bottom: 10px;
+  }
+  .contact-content .contact-title p{
+    padding-bottom: 20px;
+  }
+  .contact{
+    max-width: 700px;
+    margin: auto;
+  }
+  .contact input,.contact textarea{
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    margin-bottom: 10px;
+  }
+  
+  .contact .submit{
+    width: auto;
+    background-color: #15F5BA;
+    padding: 10px 40px;
+    font-weight:bold ;
+    font-size: 18px;
+  }
+  .contact .submit:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  #msg{
+    color: #fff;
+    font-size: 20px;
+    margin-top: -8px;
+    display: block;
+  }
+  
+  .social i{
+    color : #e5e5e5;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: 0.5s;
+  }
+  .social i:hover{
+    color:#15F5BA;
+    transform: rotate(360deg);
+  }
+  
+  
+  
+  
+  
+  
+  

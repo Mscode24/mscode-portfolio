@@ -1,0 +1,86 @@
+/*---------------------------Education & Internship---------------------------*/
+
+.education-content .row{
+    display: flex;
+    border-radius: 5px;
+    height: 400px;
+    margin-bottom: 250px;
+  }
+  
+  .education-content .title{
+    color: #15F5BA;
+  }
+  .education-content .row .education,
+  .education-content .row .internship
+  {
+    color: #e5e5e5;
+    flex:0 0 50%;
+    max-width: 50%;
+    margin-top: 30px;
+  } 
+  .education-content  h3.title{
+    font-size:24px;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  .education-content .row.timeline-box{
+    flex:0 0 100%;
+    max-width: 100%;  
+  }
+  .education-content .row .timeline{
+    /* background-color:#e5e5e5; */
+    padding: 30px 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+  }
+  .education-content .row .timeline-item{
+    position:relative;
+    padding-left: 37px;
+    padding-bottom: 50px; 
+  }
+  .education-content .row  .internship .timeline-item{
+    position:relative;
+    padding-left: 37px;
+    padding-bottom: 30px; 
+  }
+  .education-content .row .timeline-item:last-child{
+    padding-bottom: 0;
+  }
+  .education-content .row .timeline-item::before{
+    content: "";
+    width: 1px;
+    position: absolute;
+    height: 100%;
+    left: 7px;
+    top: 0;
+    background-color: #15F5BA;  
+  }
+  .education-content .row .circle-dot{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+  }
+  .education-content .row .timeline-title  {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  .education-content .row .internship .timeline-title  {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .education-content .row .timeline-text{
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+  }
+  
+  
+  
