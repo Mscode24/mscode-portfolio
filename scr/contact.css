@@ -1,7 +1,7 @@
 
 /*---------------------------Contact Me---------------------------*/
 .contact-content{
-    padding: 100px 0;
+    padding: 50px 0;
     color: #fff;
     text-align: center;
   }
@@ -28,12 +28,16 @@
   .contact .submit{
     width: auto;
     background-color: #15F5BA;
+    box-shadow: 0 0 5px cyan,
+    0 0 15px cyan ;
     padding: 10px 40px;
     font-weight:bold ;
     font-size: 18px;
   }
   .contact .submit:hover{
     transform: scale(1.1);
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan , 0 0 50px cyan;
     cursor: pointer;
   }
   #msg{
@@ -53,10 +57,4 @@
     color:#15F5BA;
     transform: rotate(360deg);
   }
-  
-  
-  
-  
-  
-  
-  
+

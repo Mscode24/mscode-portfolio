@@ -1,13 +1,13 @@
 /*---------------------------About---------------------------*/
 
 .about-area{
-    padding-top: 130px;
+    padding-top: 150px;
     background-color: #211951;
   }
   .about{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     margin-bottom:50px;
   }
   .about-content{
